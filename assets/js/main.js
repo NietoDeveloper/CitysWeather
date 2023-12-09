@@ -13,9 +13,9 @@ const sr = ScrollReveal({
 })
 
 
-sr.reveal(`.app-main`, {delay: 200}, {origin: 'left'}); 
-sr.reveal(`.footer__logo`, {delay: 300}); 
-sr.reveal(`.footer__content`, {interval: 400});
-sr.reveal(`.footer__copy`), {interval: 500};
-sr.reveal(`footer__dev-link`, {interval: 600});
-sr.reveal(`date`, {interval:700}) 
+sr.reveal(`.app-main`, {delay: 100}, {origin: 'left'}); 
+sr.reveal(`.footer__logo`, {delay: 200}); 
+sr.reveal(`.footer__content`, {interval: 300});
+sr.reveal(`.footer__copy`), {interval: 400};
+sr.reveal(`footer__dev-link`, {interval: 400});
+sr.reveal(`date`, {interval:500}) 
