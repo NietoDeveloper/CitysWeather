@@ -132,7 +132,7 @@ a {
   transition: .3s;
 }
 .footer__logo{
-  font-size: 28px;
+  font-size: 26px;
   color: blue;
 }
 .footer__logo:hover{
@@ -140,21 +140,23 @@ a {
 }
 .footer__description {
   color: blue;
-  font-size: 21px;
+  font-size: 18px;
+  margin-left: 35px;
 }
 .footer__logo i{
   font-size: 1.5rem;
   font-weight: 500;
 }
 .footer__title{
-  font-size: 21px;
+  margin-left: 30px;
+  font-size: 18px;
   margin-bottom: 1.1rem;
   color: blue;
 }
 .footer__links{
   display: flex;
   flex-direction: column;
-  row-gap: .5rem;
+  row-gap: .7rem;
   color: #e9fa04;
   font-size: 17px;
 }
@@ -172,8 +174,8 @@ a {
   column-gap: 1.5rem;
 }
 .footer__social-link{
-  font-size: 30px;
-
+  font-size: 40px;
+  margin-left: 50px;
 }
 .footer__copy{
   display: block;
@@ -242,7 +244,7 @@ a {
 
 
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 770px) {
   .section{
     padding: 7rem 0 2rem;
   }
