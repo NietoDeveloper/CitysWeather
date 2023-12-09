@@ -99,7 +99,7 @@ a {
 /*=============== FOOTER ===============*/
 
 .footer{
-  margin-top: 120px;
+  margin-top: 90px;
   position: relative;
   overflow: hidden;
 }
@@ -216,7 +216,7 @@ a {
   position: fixed;
   right: 1rem;
   bottom: -30%;
-  background-color: hsla(0, 0%, 100%, .1);
+  background-color: gold;
   display: inline-flex;
   padding: .45rem;
   border-radius: .5rem;
@@ -226,7 +226,7 @@ a {
   transition: .4s;
 }
 .scrollup:hover{
-  transform: translateY(-.28rem);
+  transform: translateY(-3rem);
 }
 
 
@@ -234,6 +234,7 @@ a {
 
 .show-scroll{
   bottom: 3rem;
+  color: blue;
 }
 
 /*=============== BREAKPOINTS ===============*/
