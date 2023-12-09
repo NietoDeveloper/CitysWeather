@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
+
+:root {
+
+  /*========== My Custom Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Exo', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  background-image: url(assets/img/Afternoon-Bogota.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+/*=============== MY REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1024px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h2-font-size);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+
+/*=============== FOOTER ===============*/
+
+.footer{
+  margin-top: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.footer .shape__big,
+.footer .shape__small{
+  position: absolute;
+}
+.footer .shape__big{
+  width: 300px;
+  height: 300px;
+  top: 6rem;
+  left: -12rem;
+}
+.footer .shape__small{
+  right: -13rem;
+  bottom: -6rem;
+}
+.footer__container{
+  row-gap: 2.5rem;
+  position: relative;
+}
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1.35rem;
+  transition: .3s;
+}
+.footer__logo{
+  font-size: 28px;
+  color: blue;
+}
+.footer__logo:hover{
+  color: red;
+}
+.footer__description {
+  color: blue;
+  font-size: 21px;
+}
+.footer__logo i{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer__title{
+  font-size: 21px;
+  margin-bottom: 1.1rem;
+  color: blue;
+}
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+  color: #e9fa04;
+  font-size: 17px;
+}
+.footer__link,
+.footer__social-link{
+  color: blue;
+  transition: .3s;
+}
+.footer__link:hover,
+.footer__social-link:hover{
+  color: rgb(206, 6, 6);
+}
+.footer__social{
+  display: flex;
+  column-gap: 1.5rem;
+}
+.footer__social-link{
+  font-size: 30px;
+
+}
+.footer__copy{
+  display: block;
+  margin-top: 4.5rem;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(250, 6, 6);
+}
+.footer__dev-link{
+  color: #e9fa04;
+  font-size: 20px;
+}
+.footer__copy,
+.footer__dev-link:hover{
+  color: red;
+  transition: .3s;
+  animation: a 3s infinite; 
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: 0.5rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 1rem;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(219, 4%, 32%);
+}
+
+/*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: hsla(0, 0%, 100%, .1);
+  display: inline-flex;
+  padding: .45rem;
+  border-radius: .5rem;
+  font-size: 1.15rem;
+  color: var(--white-color);
+  z-index: var(--z-tooltip);
+  transition: .4s;
+}
+.scrollup:hover{
+  transform: translateY(-.28rem);
+}
+
+
+/* Show Scroll Up*/
+
+.show-scroll{
+  bottom: 3rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px){
+  
+}
+
+
+
+@media screen and (min-width: 767px) {
+  .section{
+    padding: 7rem 0 2rem;
+  }
+  
+
+  
+  .footer__container{
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+
+  }
+  .footer__logo{
+    column-gap: .5rem;
+  }
+  .footer__logo i{
+    font-size: 2rem;
+  }
+  .footer__title{
+    margin-bottom: 1.5rem;
+  }
+  .footer__link{
+    row-gap: .76rem;
+  }
+  .footer__social-link{
+    font-size: 1.5rem;
+  }
+  .footer__copy{
+    margin-top: 8rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .scrollup{
+    right: 2.8rem;
+  }
+}
+
+
+
+

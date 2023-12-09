@@ -1,0 +1,96 @@
+.header h4 {
+    color: rgb(36, 3, 134);
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.app-main {
+
+    border: 3px solid rgba(61, 12, 209, 0.411);
+    border-radius: 10px;
+    box-shadow:0 4px 30px rgba(0, 0,0, 0.1);
+    backdrop-filter: blur(5px);
+    height: 530px;
+    max-width: 400px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    padding: auto;
+    text-align: center;
+  }
+  .app-main > * {
+    margin-bottom: 20px;
+  }
+  .input-box {
+    width: 100%;
+    background: gainsboro;
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    border: 3px solid rgba(61, 12, 209, 0.411);
+    border-radius: 10px;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+    outline: none;
+    border: none;
+  }
+  
+  .weather-body {
+    color: gainsboro;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: silver;
+    display: none;
+    background: linear-gradient(
+      to top,
+      #e9e503be,
+      #100191
+    );
+  }
+  .location-deatils {
+    font-weight: bold;
+  }
+  .weather-status {
+    padding: 20px;
+  }
+  .temp {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 20px 0px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .weather {
+    margin-top: 25px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .min-max {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  
+  .day_details {
+    padding: 20px;
+  }
+  .sun-detail,
+  .basic {
+    font-size: 1rem;
+  }
+  #weather-icon {
+    color: black;
+  }
+  
+  
+  @media screen and (max-width: 1800px) {
+    .app-main {
+      width: 95%;
+      padding: 10px;
+    }
+    body {
+      min-height: 94vh;
+    }
+  }
