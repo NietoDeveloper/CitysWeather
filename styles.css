@@ -169,13 +169,9 @@ a {
 .footer__social-link:hover{
   color: rgb(206, 6, 6);
 }
-.footer__social{
-  display: flex;
-  column-gap: 1.5rem;
-}
 .footer__social-link{
-  font-size: 40px;
-  margin-left: 50px;
+  font-size: 50px;
+  margin-left: 70px;
 }
 .footer__copy{
   display: block;
@@ -273,7 +269,7 @@ font-size: 14px;
     row-gap: .76rem;
   }
   .footer__social-link{
-    font-size: 1.5rem;
+    font-size: 50px;
   }
   .footer__copy{
     margin-top: 8rem;
