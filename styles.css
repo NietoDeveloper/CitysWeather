@@ -217,7 +217,7 @@ font-size: 15px;
 /*=============== SCROLL UP ===============*/
 .scrollup{
   position: fixed;
-  right: 1rem;
+  right: 10px;
   bottom: -30%;
   background-color: rgb(180, 241, 9);
   display: inline-flex;
