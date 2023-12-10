@@ -185,11 +185,11 @@ a {
 }
 .footer__copy p {
 color: greenyellow;
-font-size: 15px;
+font-size: 14px;
 }
 .footer__dev-link{
   color: gold;
-  font-size: 16px;
+  font-size: 20px;
 }
 .footer__copy,
 .footer__dev-link:hover{
