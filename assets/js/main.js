@@ -8,14 +8,14 @@ window.addEventListener('scroll', scrollUp)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '300px',
-    duration: 3000,
+    duration: 2500,
     delay: 400,
 })
 
 
-sr.reveal(`.app-main`, {delay: 100}, {origin: 'left'}); 
+sr.reveal(`.app-main`, {delay: 100}); 
 sr.reveal(`.footer__logo`, {delay: 200}); 
 sr.reveal(`.footer__content`, {interval: 300});
-sr.reveal(`.footer__copy`), {interval: 400};
-sr.reveal(`footer__dev-link`, {interval: 400});
-sr.reveal(`date`, {interval:500}) 
+sr.reveal(`.footer__copy`), {interval: 300};
+sr.reveal(`footer__dev-link`, {interval: 300});
+sr.reveal(`date`, {interval:400}) 
