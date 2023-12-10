@@ -157,12 +157,12 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: .7rem;
-  color: #e9fa04;
+  color: gold;
   font-size: 17px;
 }
 .footer__link,
 .footer__social-link{
-  color: blue;
+  color: gold;
   transition: .3s;
 }
 .footer__link:hover,
@@ -181,12 +181,15 @@ a {
   display: block;
   margin-top: 4.5rem;
   text-align: center;
-  font-size: 14px;
-  color: rgb(250, 6, 6);
+  font-size: 17px;
+}
+.footer__copy p {
+color: greenyellow;
+font-size: 15px;
 }
 .footer__dev-link{
-  color: #e9fa04;
-  font-size: 17px;
+  color: gold;
+  font-size: 16px;
 }
 .footer__copy,
 .footer__dev-link:hover{
@@ -197,18 +200,18 @@ a {
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
-  width: 0.5rem;
-  background-color: hsl(219, 4%, 16%);
-  border-radius: 1rem;
+  width: 10px;
+  background-color: hsl(222, 7%, 28%);
+  border-radius: 1px;
 
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: hsl(219, 4%, 24%);
-  border-radius: 1rem;
+  background-color: silver;
+  border-radius: 1px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color: hsl(219, 4%, 32%);
+  background-color: black;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -216,17 +219,17 @@ a {
   position: fixed;
   right: 1rem;
   bottom: -30%;
-  background-color: gold;
+  background-color: rgb(180, 241, 9);
   display: inline-flex;
-  padding: .45rem;
+  padding: .35rem;
   border-radius: .5rem;
   font-size: .8rem;
   color: var(--white-color);
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: .6s;
 }
 .scrollup:hover{
-  transform: translateY(-3rem);
+  transform: translateY(-1rem);
 }
 
 

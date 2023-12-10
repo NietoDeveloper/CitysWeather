@@ -12,6 +12,8 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
+const d = new Date();
+document.getElementById("date").innerHTML = d;
 
 sr.reveal(`.app-main`, {delay: 150}); 
 sr.reveal(`.footer__logo`, {delay: 200}); 
