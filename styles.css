@@ -157,12 +157,12 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: .7rem;
-  color: gold;
+  color: rgb(180, 241, 9);
   font-size: 17px;
 }
 .footer__link,
 .footer__social-link{
-  color: gold;
+  color: rgb(180, 241, 9)
   transition: .3s;
 }
 .footer__link:hover,
