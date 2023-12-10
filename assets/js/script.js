@@ -110,7 +110,7 @@ function changeBg(status) {
     } else if (status === 'Drizzle') {
         document.body.style.backgroundImage = 'url(assets/img/drizzle.jpg)';
     } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(img/mist.jpg)';
+        document.body.style.backgroundImage = 'url(assets/img/mist.jpg)';
     }
 
     else {
