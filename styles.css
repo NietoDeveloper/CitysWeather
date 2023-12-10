@@ -162,7 +162,7 @@ a {
 }
 .footer__link,
 .footer__social-link{
-  color: rgb(180, 241, 9)
+  color: rgb(180, 241, 9);
   transition: .3s;
 }
 .footer__link:hover,
