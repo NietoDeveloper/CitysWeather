@@ -157,12 +157,12 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: .7rem;
-  color: rgb(180, 241, 9);
+  color: rgb(188, 255, 4);
   font-size: 17px;
 }
 .footer__link,
 .footer__social-link{
-  color: rgb(180, 241, 9);
+  color: rgb(188, 255, 4);
   transition: .3s;
 }
 .footer__link:hover,
@@ -171,11 +171,11 @@ a {
 }
 .footer__social-link{
   font-size: 50px;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 .footer__copy{
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   text-align: center;
   font-size: 17px;
 }
@@ -184,8 +184,8 @@ color: greenyellow;
 font-size: 14px;
 }
 .footer__dev-link{
-  color: rgb(251, 255, 0);
-  font-size: 20px;
+  color: greenyellow;
+  font-size: 24px;
 }
 .footer__copy,
 .footer__dev-link:hover{
@@ -196,7 +196,7 @@ font-size: 14px;
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 12px;
   background-color: hsl(222, 7%, 28%);
   border-radius: 1px;
 
@@ -215,11 +215,11 @@ font-size: 14px;
   position: fixed;
   right: 10px;
   bottom: -30%;
-  background-color: rgb(180, 241, 9);
+  background-color: rgb(188, 255, 4);
   display: inline-flex;
   padding: .35rem;
   border-radius: .5rem;
-  font-size: .8rem;
+  font-size: .7rem;
   color: var(--white-color);
   z-index: var(--z-tooltip);
   transition: .6s;
