@@ -53,10 +53,6 @@ body {
   background-attachment: fixed;
 }
 
-.app-main .header h4 {
-  font-size: 55px;
-}
-
 h1, h2, h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -103,7 +99,7 @@ a {
 /*=============== FOOTER ===============*/
 
 .footer{
-  margin-top: 90px;
+  margin-top: 140px;
   position: relative;
   overflow: hidden;
 }
@@ -245,8 +241,6 @@ font-size: 14px;
 @media screen and (max-width: 320px){
   
 }
-
-
 
 @media screen and (min-width: 770px) {
   .section{
