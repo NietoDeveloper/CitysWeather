@@ -99,7 +99,7 @@ a {
 /*=============== FOOTER ===============*/
 
 .footer{
-  margin-top: 140px;
+  margin-top: 110px;
   position: relative;
   overflow: hidden;
 }
@@ -159,6 +159,9 @@ a {
   row-gap: .7rem;
   color: rgb(188, 255, 4);
   font-size: 17px;
+}
+.footer__links:hover{
+  color: rgb(206, 6, 6);
 }
 .footer__link,
 .footer__social-link{
