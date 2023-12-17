@@ -17,7 +17,7 @@
     border-radius: 10px;
     box-shadow:0 4px 30px rgba(0, 0,0, 0.1);
     backdrop-filter: blur(5px);
-    height: 530px;
+    height: 540px;
     width: 320px;
     margin-top: 70px;
     margin-left: auto;
@@ -36,7 +36,7 @@
     font-weight: 500;
     border: 3px solid rgba(61, 12, 209, 0.411);
     border-radius: 10px;
-    font-size: 1.7rem;
+    font-size: 30px;
     border-radius: 10px;
     padding: 1px;
     text-align: center;

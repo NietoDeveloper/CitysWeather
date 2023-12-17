@@ -3,28 +3,19 @@ const weatherApi = {
     baseUrl: 'https://api.openweathermap.org/data/2.5/weather'
 }
 
-//adding event listener key press of enter
 let searchInputBox = document.getElementById('input-box');
 searchInputBox.addEventListener('keypress', (event) => {
     if (event.keyCode == 13) {
-        // console.log(searchInputBox.value);
         getWeatherReport(searchInputBox.value);
-        
     }
 })
 
-
-//get waether report
-
 function getWeatherReport(city) {
-    fetch(`${weatherApi.baseUrl}?q=${city}&appid=${weatherApi.key}&units=metric`)  // fetch method fetching the data from  base url ...metric is used for unit in celcius......here i am appending the base url to get data by city name .  
-        .then(weather => {   //weather is from api
-            return weather.json(); // return data from api in JSON
-        }).then(showWeaterReport);  // calling showweatherreport function
-
+    fetch(`${weatherApi.baseUrl}?q=${city}&appid=${weatherApi.key}&units=metric`)  
+        .then(weather => {  
+            return weather.json();
+        }).then(showWeaterReport); 
 }
-
-//show weather report
 
 function showWeaterReport(weather) {
     let city_code=weather.cod;
@@ -36,9 +27,7 @@ function showWeaterReport(weather) {
         reset();
     }
     else{
-
-    // console.log(weather.cod);
-    // console.log(weather);  
+  
     let op = document.getElementById('weather-body');
     op.style.display = 'block';
     let todayDate = new Date();
@@ -66,10 +55,7 @@ function showWeaterReport(weather) {
     reset();
     }
 }
-
-
-
-//making a function for the  last update current time 
+ 
 
 function getTime(todayDate) {
     let hour =addZero(todayDate.getHours());
@@ -77,7 +63,6 @@ function getTime(todayDate) {
     return `${hour}:${minute}`;
 }
 
-//date manage for return  current date
 function dateManage(dateArg) {
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -87,11 +72,10 @@ function dateManage(dateArg) {
     let month = months[dateArg.getMonth()];
     let date = dateArg.getDate();
     let day = days[dateArg.getDay()];
-    // console.log(year+" "+date+" "+day+" "+month);
+
     return `${date} ${month} (${day}) , ${year}`
 }
 
-// function for the dynamic background change  according to weather status
 function changeBg(status) {
     if (status === 'Clouds') {
         document.body.style.backgroundImage = 'url(assets/img/clouds.jpg)';
@@ -118,7 +102,6 @@ function changeBg(status) {
     }
 }
 
-//making a function for the classname of icon
 function getIconClass(classarg) {
     if (classarg === 'Rain') {
         return 'fas fa-cloud-showers-heavy';

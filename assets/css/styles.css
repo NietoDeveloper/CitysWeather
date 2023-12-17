@@ -258,7 +258,6 @@ padding-top: 9rem;
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: 1.35rem;
-  transition: .3s;
 }
 .footer__logo{
   font-size: 1.5rem;
