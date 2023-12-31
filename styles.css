@@ -245,10 +245,11 @@ font-size: 14px;
   
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 710px) {
   .section{
     padding: 7rem 0 2rem;
   }
+
   .footer__container{
     grid-template-columns: repeat(4, max-content);
     justify-content: space-between;
