@@ -31,8 +31,8 @@ function showWeaterReport(weather) {
     const op = document.getElementById('weather-body');
     op.style.display = 'block';
     const todayDate = new Date();
-    let parent=document.getElementById('parent');
-    let weather_body = document.getElementById('weather-body');
+    const parent=document.getElementById('parent');
+    const weather_body = document.getElementById('weather-body');
     weather_body.innerHTML =
         `
     <div class="location-deatils">
@@ -58,20 +58,20 @@ function showWeaterReport(weather) {
  
 
 function getTime(todayDate) {
-    let hour =addZero(todayDate.getHours());
-    let minute =addZero(todayDate.getMinutes());
+    const hour =addZero(todayDate.getHours());
+    const minute =addZero(todayDate.getMinutes());
     return `${hour}:${minute}`;
 }
 
 function dateManage(dateArg) {
-    let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-    let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-    let year = dateArg.getFullYear();
-    let month = months[dateArg.getMonth()];
-    let date = dateArg.getDate();
-    let day = days[dateArg.getDay()];
+    const year = dateArg.getFullYear();
+    const month = months[dateArg.getMonth()];
+    const date = dateArg.getDate();
+    const day = days[dateArg.getDay()];
 
     return `${date} ${month} (${day}) , ${year}`
 }
@@ -105,32 +105,39 @@ function changeBg(status) {
 function getIconClass(classarg) {
     if (classarg === 'Rain') {
         return 'fas fa-cloud-showers-heavy';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Clouds') {
         return 'fas fa-cloud';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Clear') {
         return 'fas fa-cloud-sun';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Snow') {
         return 'fas fa-snowman';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Sunny') {
         return 'fas fa-sun';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Mist') {
         return 'fas fa-smog';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else if (classarg === 'Thunderstorm' || classarg === 'Drizzle') {
         return 'fas fa-thunderstorm';
+    // biome-ignore lint/style/noUselessElse: <explanation>
     } else {
         return 'fas fa-cloud-sun';
     }
 }
 
 function reset() {
-    let input = document.getElementById('input-box');
+    const input = document.getElementById('input-box');
     input.value = "";
 }
 
 // funtion to add zero if hour and minute less than 10
 function addZero(i) {
     if (i < 10) {
-        i = "0" + i;
+        i = `0${i}`;
     }
     return i;
 }
