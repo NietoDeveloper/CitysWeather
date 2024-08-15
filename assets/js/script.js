@@ -3,9 +3,9 @@ const weatherApi = {
     baseUrl: 'https://api.openweathermap.org/data/2.5/weather'
 }
 
-let searchInputBox = document.getElementById('input-box');
+const searchInputBox = document.getElementById('input-box');
 searchInputBox.addEventListener('keypress', (event) => {
-    if (event.keyCode == 13) {
+    if (event.keyCode === 13) {
         getWeatherReport(searchInputBox.value);
     }
 })
@@ -18,7 +18,7 @@ function getWeatherReport(city) {
 }
 
 function showWeaterReport(weather) {
-    let city_code=weather.cod;
+    const city_code=weather.cod;
     if(city_code==='400'){ 
         swal("Empty Input", "Please enter any city", "error");
         reset();
@@ -28,9 +28,9 @@ function showWeaterReport(weather) {
     }
     else{
   
-    let op = document.getElementById('weather-body');
+    const op = document.getElementById('weather-body');
     op.style.display = 'block';
-    let todayDate = new Date();
+    const todayDate = new Date();
     let parent=document.getElementById('parent');
     let weather_body = document.getElementById('weather-body');
     weather_body.innerHTML =
