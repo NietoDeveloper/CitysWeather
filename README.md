@@ -1,14 +1,14 @@
-# [Bogota City Tributte]
+# [Citys Weather]
 
 ## Vanilla JS Landing
 
 # Information Site
 
-Welcome to Bogota! This site serves as an Landing Page Trubutte Bogota City Tributte.
+Welcome! This site serves as an Landing Page For citys Wheather app.
 
 ## About
 
-This site is built with vanilla JavaScript
+Built with vanilla JavaScript
 
 ## Technologies Used
 
