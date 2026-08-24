@@ -25,4 +25,3 @@ Clean and modular CSS styling
 Standard HTML structure
 
 ## Setup Instructions
-
