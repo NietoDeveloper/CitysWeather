@@ -13,7 +13,7 @@ Built with vanilla JavaScript
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Hosting:** GitHub Pages
+- **Hosting:** GitHub P
 
 Overview
 A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No frameworks or dependencies required.
