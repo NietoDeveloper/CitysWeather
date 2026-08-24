@@ -48,5 +48,3 @@ Project Structure
 ├── js/
 │   └── app.js       # JavaScript logic
 └── README.md         # This file
-
-Contributing
