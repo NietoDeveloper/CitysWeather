@@ -15,5 +15,4 @@ Built with vanilla JavaScript
 - **Frontend:** HTML, CSS, JavaScript
 - **Hosting:** GitHub P
 
-Overview
-A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No 
+Overviewd HTML. No 
