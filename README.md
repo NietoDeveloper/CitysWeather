@@ -12,5 +12,4 @@ Built with vanilla JavaScript
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, Ja
-Overvi
+- **Frontend:** HTML, CSS
