@@ -10,5 +10,5 @@ Welcome! This site serves as an Landing Page For citys Wheather app.
 
 Built with vanilla JavaScript
 
-## Technologies
+## Technol
 - **Frontend:** HTML
