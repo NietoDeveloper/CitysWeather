@@ -2,8 +2,3 @@
 
 ## Vanilla JS Landing
 
-# Information Site
-
-Welcome! This site serves as an Landing Page For citys Wheather app.
-
-## 
