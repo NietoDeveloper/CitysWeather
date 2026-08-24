@@ -45,4 +45,3 @@ Project Structure
 ├── index.html        # Main HTML file
 ├── styles .css       # CSS styles
 │  
-├── js/
