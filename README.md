@@ -12,6 +12,5 @@ Built with vanilla JavaScript
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Hosting:
+- **Frontend:** HTML, CSS, Ja
 Overviewd HTML. No 
