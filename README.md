@@ -26,6 +26,3 @@ Standard HTML structure
 
 ## Setup Instructions
 
-To set up the project locally, follow these steps:
-
-Installation
