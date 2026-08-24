@@ -19,4 +19,4 @@ Overview
 A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No frameworks or dependencies
 Features
 
-Responsive design
+Responsive d
