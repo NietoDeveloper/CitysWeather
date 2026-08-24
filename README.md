@@ -21,4 +21,4 @@ Features
 
 Responsive design
 Interactive UI with vanilla JS
-Clean and modular CSS st
+Clean and modula
