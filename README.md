@@ -29,5 +29,3 @@ Standard HTML structure
 To set up the project locally, follow these steps:
 
 Installation
-
-Clone the repository:git clone <https://github.com/NietoDeveloper/CitysWeather>
