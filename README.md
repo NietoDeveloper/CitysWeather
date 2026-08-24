@@ -20,5 +20,3 @@ A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No f
 Features
 
 Responsive design
-Interactive UI with vanilla JS
-Clean and modula
