@@ -39,4 +39,3 @@ Usage
 
 Navigate through the website using the browser.
 All functionality is handled by vanilla JS scripts in the js/ folder.
-Styles are located in the css/
