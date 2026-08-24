@@ -34,5 +34,3 @@ Clone the repository:git clone <https://github.com/NietoDeveloper/CitysWeather>
 
 
 Open index.html in a web browser.
-
-Usage
