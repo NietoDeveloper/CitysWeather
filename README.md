@@ -13,6 +13,5 @@ Built with vanilla JavaScript
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Hosting:** GitHub P
-
+- **Hosting:** GitH
 Overviewd HTML. No 
