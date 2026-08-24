@@ -46,4 +46,3 @@ Project Structure
 ├── styles .css       # CSS styles
 │  
 ├── js/
-│   └── app.js       # JavaScript logic
