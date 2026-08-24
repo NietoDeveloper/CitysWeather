@@ -8,7 +8,4 @@ Welcome! This site serves as an Landing Page For citys Wheather app.
 
 ## About
 
-Built with vanilla JavaScript
-
-## Technol
-- **Frontend:** 
+Built with vanilla JavaScri
